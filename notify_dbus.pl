@@ -21,6 +21,7 @@ $VERSION = "0.01";
     name        => 'notify_dbus.pl',
     description => 'Use libnotify to alert user to hilighted messages',
     license     => 'Public domain - Copyleft',
+    url         => 'https://github.com/tbaumann/Irssi-nofity-for-Desktop--Notify',
 );
 
 Irssi::settings_add_str('notify', 'notify_icon', 'gtk-dialog-info');
